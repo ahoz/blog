@@ -1,0 +1,9 @@
+---
+layout: default
+title: APTGET Blog
+---
+{% for post in site.posts %}
+	<section id="{{id}}" class="{{post_class}}">
+		<h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a><span class="separator"> &middot; </span>{{ post.date | date_to_long_string }}</h3>
+	</section>
+{% endfor %}

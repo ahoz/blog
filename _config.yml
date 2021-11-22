@@ -1,0 +1,14 @@
+name: APTGET-Blog
+title: "[APTGET] Tech-Blog"
+description: "DevOps, Data und Programmierung"
+logo: /assets/images/logo.jpg
+
+#markdown: redcarpet
+markdown: kramdown
+pygments: true
+
+comments: true
+paginate: 1
+paginate_path: "/page:num"
+permalink: /:title.html
+#plugins: [jekyll-paginate]
