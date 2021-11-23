@@ -8,7 +8,7 @@ markdown: kramdown
 pygments: true
 
 comments: true
-paginate: 1
+paginate: 0
 paginate_path: "/page:num"
 permalink: /:title.html
 #plugins: [jekyll-paginate]
